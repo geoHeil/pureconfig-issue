@@ -1,6 +1,6 @@
 scalaVersion in ThisBuild := "2.11.12"
 
-libraryDependencies += "com.github.pureconfig" % "pureconfig_2.12" % "0.9.1"
+libraryDependencies += "com.github.pureconfig" % "pureconfig_2.11" % "0.9.1"
 
 javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
 javaOptions ++= Seq("-Xms512M", "-Xmx2048M", "-XX:MaxPermSize=2048M", "-XX:+CMSClassUnloadingEnabled")
