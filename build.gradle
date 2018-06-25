@@ -1,0 +1,11 @@
+apply plugin: 'scala'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile group: 'com.github.pureconfig', name: 'pureconfig_2.11', version: '0.9.1'
+    compileOnly group: 'org.scala-lang', name: 'scala-library', version: '2.11.12'
+
+}
